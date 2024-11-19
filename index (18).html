@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادات الصفوة التعليمية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* خلفية هادئة */
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #00796b, #004d40); /* لون أخضر داكن متدرج للهيدر */
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .section {
+            padding: 30px;
+            margin: 20px;
+            background: #ffffff; /* خلفية بيضاء نظيفة */
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* إضافة تأثير الظل */
+        }
+
+        .section h2 {
+            font-size: 24px;
+            color: #004d40; /* لون أخضر داكن لعناوين الأقسام */
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-item {
+            background: #e0f2f1; /* خلفية خفيفة مع تدرج فاتح */
+            border-radius: 8px;
+            width: 220px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item img {
+            width: 100%;
+            height: auto;
+            max-width: 150px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+        }
+
+        .service-item h3 {
+            font-size: 20px;
+            color: #004d40; /* عنوان الخدمة بلون داكن */
+            margin-top: 10px;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 20px;
+            background: #00796b; /* خلفية داكنة مريحة */
+            color: white;
+            border-radius: 8px;
+            animation: colorChange 6s infinite alternate; /* تطبيق التأثير المتحرك */
+        }
+
+        .cta h3 {
+            font-size: 24px;
+        }
+
+        .cta p {
+            font-size: 18px;
+        }
+
+        .doctor-info {
+            background: #e0f7fa; /* خلفية ناعمة للطبيب */
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .doctor-info img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .doctor-info h3 {
+            font-size: 28px;
+            color: #00796b; /* لون الطبيب بلون مميز */
+            margin-top: 20px;
+        }
+
+        .doctor-info p {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004d40; /* لون داكن يتناسب مع أسفل الصفحة */
+            color: white;
+            margin-top: 30px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        /* تأثير الحركة على الخلفية */
+        @keyframes colorChange {
+            0% {
+                background: linear-gradient(135deg, #ff9800, #f44336); /* تدرج لون برتقالي أحمر */
+            }
+            50% {
+                background: linear-gradient(135deg, #4caf50, #8bc34a); /* تدرج لون أخضر */
+            }
+            100% {
+                background: linear-gradient(135deg, #2196f3, #03a9f4); /* تدرج لون أزرق */
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>عيادات الصفوة التعليمية</h1>
+    </div>
+
+    <div class="section">
+        <h2>فرصة استثنائية لعلاج أسنانك مجانًا تحت إشراف أطباء مختصين</h2>
+        <p>إذا كنت تبحث عن علاج أسنان عالي الجودة دون أن تدفع شيئًا، فإننا نقدم لك فرصة لا تعوض. نحن نولي اهتماماً بالغاً من أجل راحتك وصحة أسنانك، ونعرض عليك علاج أسنان مجاني بإشراف أطباء مختصين، على يد دكتور ممارس عالي التدريب. نهدف من خلال هذه الفرصة إلى تقديم أفضل رعاية طبية بأيدٍ محترفة في بيئة مريحة وآمنة.</p>
+    </div>
+
+    <div class="section">
+        <h2>كيفية إجراء العلاج؟</h2>
+        <p>دكتور ممارس سيتولى إجراء العلاجات الأساسية مثل الحشوات، القلع، والتنظيف، بتوفير أعلى معايير الجودة والدقة. كل خطوة من خطوات العلاج تتم تحت إشراف أطباء مختصين في العديد من المجالات الحشوات التجميلية وجراحة الفم وتنظيف الأسنان، والصناعة لضمان تقديم أفضل علاج ممكن يناسب احتياجاتك.</p>
+    </div>
+
+    <div class="section">
+        <h2>لماذا تعتبر هذه الفرصة مميزة؟</h2>
+        <ul>
+            <li>تعاون كامل بين الأطباء الممارسين والمختصين: العلاج يتم بتوجيه مستمر ومتابعة دقيقة من قبل الأطباء المختصين، مما يضمن لك رعاية صحية كاملة ودقيقة.</li>
+            <li>أحدث التقنيات الطبية: نحن نستخدم التقنيات الحديثة والأدوات المتطورة التي تضمن علاجًا فعالًا ومريحًا، مع أعلى درجات التعقيم.</li>
+            <li>تجاربنا السابقة: لدينا العديد من المرضى الذين استفادوا من هذه الفرصة العلاجية المجانية، منهم من كان يعاني من مشاكل كبيرة في الأسنان مثل التسوس العميق أو ألم مستمر، وبفضل العلاج الذي قدمناه بجودة ودقة عالية، استطاعوا استعادة ابتسامتهم بثقة عالية.</li>
+            <li>رعاية طبية على أعلى مستوى: إن وجود أطباء مختصين في كل مرحلة من العلاج يضمن لك أفضل النتائج، مع متابعة مستمرة ودقيقة لأدق التفاصيل المتعلقة بحالتك الصحية.</li>
+        </ul>
+    </div>
+
+    <div class="cta">
+        <h3>لا تفوت هذه الفرصة الذهبية!</h3>
+        <p>انتهز الفرصة الآن للحصول على علاج أسنان مجاني، حيث سيقوم دكتور ممارس بإجراء العلاج تحت إشراف أطباء مختصين في جميع مراحل العلاج. نحن هنا لنقدم لك أفضل العناية الطبية دون أي تكلفة، في بيئة احترافية ومريحة.</p>
+    </div>
+
+    <div class="section">
+        <h2>الخدمات المقدمة</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <img src="dentist.gif" alt="حشوات">
+                <h3>حشوات ضوئية ومعدنية</h3>
+            </div>
+            <div class="service-item">
+                <img src="dental-care.gif" alt="جلسات تنظيف">
+                <h3>جلسات تنظيف وإزالة التكلسات</h3>
+            </div>
+            <div class="service-item">
+                <img src="caries.gif" alt="قلع الأسنان">
+                <h3>قلع الأسنان والجذور التالفة</h3>
+            </div>
+            <div class="service-item">
+                <img src="denture.gif" alt="تركيب أطقم الأسنان">
+                <h3>تركيب أطقم الأسنان</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="doctor-info">
+        <img src="Hdhshssh.jpg" alt="ياسر ضياء الاسدي">
+        <h3>ياسر ضياء الاسدي</h3>
+        <p>دكتور ممارس في عيادات الصفوة التعليمية عالي التدريب يعمل مباشرة تحت إشراف العديد من الأطباء الاختصاص في مجال الحشوات والجراحة والصناعة والتنظيف بجودة عالية.</p>
+    </div>
+
+
+</body>
+</html<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام حجز العيادة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa, #80deea);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #ffffff, #f0f8ff);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+            border: 1px solid #ddd;
+        }
+
+        h2 {
+            color: #0077b6;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        label {
+            font-size: 18px;
+            margin-top: 15px;
+            display: block;
+            color: #0077b6;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border: 2px solid #0077b6;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: #005f8f;
+            outline: none;
+            box-shadow: 0 0 8px rgba(0, 95, 143, 0.5);
+        }
+
+        button {
+            background: linear-gradient(135deg, #0077b6, #00bcd4);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, #005f8f, #00bcd4);
+            transform: translateY(-3px);
+        }
+
+        .note {
+            margin-top: 20px;
+            color: #e91e63;
+            font-size: 16px;
+        }
+
+        .time-select, .day-select {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .reminder {
+            color: #e91e63;
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2> قائمة الحجز </h2>
+
+    <form action="https://formspree.io/f/manybolw" method="POST">
+        <label for="name">الاسم الكامل:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">العمر:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="phone">رقم الهاتف:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="service">نوع الخدمة:</label>
+        <select id="service" name="service" required>
+            <option value="الحشوات الضوئية والمعدنية">الحشوات الضوئية والمعدنية</option>
+            <option value="جلسات تنظيف وإزالة التكلسات">جلسات تنظيف وإزالة التكلسات</option>
+            <option value="قلع الاسنان والجذور المتبقية">قلع الاسنان والجذور المتبقية</option>
+            <option value="تركيب اطقم متحركة">تركيب اطقم متحركة</option>
+        </select>
+
+        <div class="day-select">
+            <label for="day">اليوم:</label>
+            <select id="day" name="day" required>
+                <option value="الأحد">الأحد</option>
+                <option value="الاثنين">الاثنين</option>
+            </select>
+        </div>
+
+        <div class="time-select">
+            <label for="time">الوقت:</label>
+            <select id="time" name="time" required>
+                <option value="8:30">8:30 صباحاً</option>
+                <option value="11:30">11:30 صباحاً</option>
+            </select>
+        </div>
+
+        <label for="notes">ملاحظات:</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="أي ملاحظات إضافية..."></textarea>
+
+        <button type="submit">إرسال الحجز</button>
+    </form>
+
+    <div class="note">
+        <p>جميع الخدمات مجانية باستثناء تركيب الأطقم المتحركة، حيث يختلف السعر حسب عدد الأسنان المفقودة.</p>
+        <p>يرجى الحضور قبل الموعد المحدد للحجز.</p>
+    </div>
+
+    <div class="reminder">
+        <p>لا تدع شي يلهيك عن الفرائض اليومية</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 عيادات الصفوة. جميع الحقوق محفوظة.</p>
+</div>
